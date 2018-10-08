@@ -1,0 +1,39 @@
+{
+    "name": "follo-time",
+    "version": "0.0.1",
+    "description": "Timemanagment done right",
+    "main": "app.js",
+    "scripts": {
+        "dev": "vue serve ./src/main.js",
+        "start": "NODE_ENV=DEV vue-cli-service serve & sleep 5 && NODE_ENV=DEV electron app.js",
+        "test": "ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bentrynning/follo-time.git"
+    },
+    "keywords": [
+        "time",
+        "logtime",
+        "logging",
+        "calendar"
+    ],
+    "author": "Bent Rynning",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bentrynning/follo-time/issues"
+    },
+    "homepage": "https://github.com/bentrynning/follo-time#readme",
+    "devDependencies": {
+        "@vue/cli": "^3.0.3",
+        "@vue/cli-service": "^3.0.3",
+        "electron": "^2.0.9",
+        "less": "^3.0.4",
+        "less-loader": "^4.1.0",
+        "typescript": "^3.0.3",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "dependencies": {
+        "vue": "^2.5.17"
+    }
+}
